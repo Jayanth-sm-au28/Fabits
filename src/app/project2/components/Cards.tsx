@@ -183,6 +183,13 @@ const Cards = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-6 mt-6">
         <div className="grid grid-cols-1 gap-4 2xl:gap-4 lg:grid-cols-1 xl:grid-cols-2 2xl:grid-cols-3">
           {data.map((item, index) => (
+              <a
+              key={index}
+              href="https://linkedin.com/in/jayanth-s-m-042450250" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="card-link" 
+            >
             <div
               key={index}
               className="bg-white border-2 rounded-3xl  shadow-lg p-6 transform hover:scale-105 transition duration-300"
@@ -329,6 +336,8 @@ const Cards = () => {
                 </div>
               )}
             </div>
+            </a>
+
           ))}
         </div>
       </div>
